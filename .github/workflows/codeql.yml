@@ -25,7 +25,7 @@ jobs:
 
     - name: Maven Build
       run:
-        mvnw compile
+        mvn compile
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
